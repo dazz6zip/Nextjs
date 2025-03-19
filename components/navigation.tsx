@@ -1,9 +1,4 @@
 "use client";
-// 정적 HTML 파일 로드 후 동적 요소 로드 과정은 이 문구가 기재되어 있어야만 발생함
-// 해당 components가 client에서 interactive 해야 한다는 선언
-// BackEnd에서 Render 되고 FrontEnd에서 hydrate 된다는 것 (Not Only CSR)
-// 이 문구가 없을 경우 Server Component 가 됨
-// 브라우저가 선택적으로 JS 로드하므로 효율적 (속도 및 성능 측면에서 좋음)
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
